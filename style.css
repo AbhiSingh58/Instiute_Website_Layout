@@ -1,0 +1,279 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+
+        #logo {
+            color: black;
+            margin-right: 78%;
+            margin-left: 28px;
+            margin-top: 15px;
+        }
+
+        .nav {
+            /* border: 2px solid red; */
+            display: flex;
+            color: rgb(149, 149, 235);
+
+            font-size: 18px;
+        }
+
+
+
+        #ful {
+            display: flex;
+            list-style: none;
+            padding: 15px 0px 15px 0px;
+            margin: 0px 0px 0px -93px;
+        }
+
+        .lit {
+            margin: 0px 30px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            cursor: pointer;
+        }
+
+        .lit:hover {
+            color: rgb(102, 102, 223);
+        }
+
+        .cont1 {
+            /* border: 2px solid rgb(0, 89, 255); */
+            height: 442px;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            /* text-align: center; */
+
+        }
+
+        body::before {
+            content: "";
+            background-image: url("brooke-cagle-g1Kr4Ozfoac-unsplash.jpg");
+            background-position: center;
+            background-size: cover;
+
+            background-repeat: no-repeat;
+            position: absolute;
+            height: 500px;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+            left: 0%;
+
+        }
+
+        #fp {
+            font-size: 20px;
+        }
+
+        #b1 {
+            left: 221px;
+            /* text-align: center; */
+            margin: 13px 0px 0px 0px;
+            width: 79px;
+            height: 26px;
+            border-radius: 10px;
+            background-color: rgb(149, 149, 235);
+            border: none;
+            color: white;
+            font-weight: 700;
+            cursor: pointer;
+            position: absolute;
+
+        }
+
+        #b1:hover {
+            background-color: rgb(102, 102, 223);
+            color: whitesmoke;
+        }
+
+        #sp {
+            position: absolute;
+            left: 367px;
+            margin: 12px 0px 0px 0px;
+            text-decoration: 1px underline white;
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+        }
+
+        #sp:hover {
+            color: rgb(199, 199, 243);
+        }
+
+        #scd {
+            display: inline;
+            position: absolute;
+            bottom: -121px;
+            left: 62px;
+        }
+
+        #b2 {
+            bottom: -124px;
+            left: 63px;
+            position: absolute;
+            height: 11px;
+            display: inline-block;
+            width: 0px;
+            cursor: pointer;
+        }
+
+        #b2:hover {
+            color: rgb(199, 199, 243);
+        }
+
+        /* #2nd container */
+        .cont2 {
+            display: grid;
+            text-align: center;
+            grid-template-areas:
+                'yup yup hey hey';
+            /* column-gap: 10px; */
+        }
+
+        #yup {
+            grid-area: yup;
+            display: grid;
+            grid-template-areas:
+                'sh sh sh sh'
+                'pp pp pp pp'
+                'png1 png1 png2 png2'
+                'png3 png3 png4 png4';
+        }
+
+        #hey {
+            grid-area: hey;
+        }
+
+        .cont2 {
+            margin: 56px 0px 0px 0px;
+            /* border: 2px solid green; */
+        }
+
+        #im {
+            margin: 0px -13px 0px 0px
+        }
+
+        #sh {
+            color: rgb(118, 118, 230);
+            grid-area: sh;
+            margin: 89px 0px 0px 0px;
+            grid-area: sh;
+            font-size: 40px;
+        }
+
+        #pp {
+            font-size: 18px;
+            grid-area: pp;
+            width: 492px;
+            margin: -6px -20px 0px 6px;
+        }
+
+        #png1 {
+            grid-area: png1;
+        }
+
+        #png2 {
+            grid-area: png2;
+        }
+
+        #png3 {
+            grid-area: png3;
+        }
+
+        #png4 {
+            margin: 0px -73px 0px 0px;
+            grid-area: png4;
+            margin: 0px 0px 0px 70p
+        }
+
+        .cont3 {
+
+            margin: 51px 0px 0px 0px;
+            height: 397px;
+            text-align: center;
+        }
+
+
+        .cont3::before {
+            content: "";
+            background-image: url("bgm.jpg");
+            background-position: center;
+            background-size: cover;
+
+            background-repeat: no-repeat;
+            position: absolute;
+            height: 400px;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.9;
+            left: 0;
+            border-radius: 16px;
+            /* margin: 59px 0px 0px 0px */
+        }
+
+        #b3 {
+            height: 36px;
+            margin: 21px 0px 0px 0px;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 8px;
+            color: white;
+            background-color: rgb(95 106 239);
+            cursor: pointer;
+            width: 110px;
+
+
+        }
+
+        #b3:hover {
+            background-color: rgb(66 79 239);
+        }
+
+        /* cont 4 */
+        .cont4 {
+            /* border: 2px solid red; */
+            width: 100%;
+            height: 500px;
+            margin: -1px 0px 0px 0px;
+            background-color: #f3f1f1;
+
+        }
+
+        .loc {
+            width: 100%;
+            height: 498px;
+            position: absolute;
+            opacity: 0;
+            border-radius: 30px;
+        }
+
+        #left {
+            position: absolute;
+            /* border: 2px solid red; */
+            /* width: 11px; */
+            
+            font-size: 40px;
+            cursor: pointer;
+            color: red;
+            top: 300%;
+
+        }
+
+        #right {
+            position: absolute;
+            /* border: 2px solid red; */
+            left:98% ;
+            font-size: 40px;
+            cursor: pointer;
+            color: red;
+            top: 300%;
+
+        }
+
+        .loc.visibility {
+            opacity: 1;
+        }
